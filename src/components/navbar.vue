@@ -1,13 +1,28 @@
 <script setup>
 import { RouterLink } from "vue-router";
+import Phone from "./Phone.vue";
 </script>
 
 <template>
-  <div class="w-full font-bold">
+  <div class="w-full flex justify-center items-center">
+<div class="w-[20%] m-2">
+    <h2 class=" p-4 font-bold text-xl">
+      Eatery <strong class="text-red-800">.</strong> Cafe
+    </h2>
+  </div>
+  <div class="font-bold w-[55%]">
     <router-link to="/" class="px-3">HOME </router-link>
-    <router-link to="#about" class="px-3">ABOUT </router-link>
+    <router-link to="/about" class="px-3">ABOUT </router-link>
     <router-link to="/" class="px-3">CHEF </router-link>
     <router-link to="/" class="px-3">MENU </router-link>
     <router-link to="/" class="px-3">CONTACT </router-link>
   </div>
+  <div class="w-[30%] mt-2 flex justify-start items-start">
+    <span class="p-4 font-bold flex"
+      >Call Now <phone class="p-1"></phone>0311 2133333</span
+    >
+    <button class="px-6 py-4 bg-red-700">Reserve a Table</button>
+  </div>
+  </div>
+  
 </template>
