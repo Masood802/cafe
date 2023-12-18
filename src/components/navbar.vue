@@ -17,11 +17,11 @@ import Phone from "./Phone.vue";
     <router-link to="/" class="px-3">MENU </router-link>
     <router-link to="/" class="px-3">CONTACT </router-link>
   </div>
-  <div class="w-[30%] mt-2 flex justify-start items-start">
+  <div class="w-[30%] mt-2 flex justify-start items-center">
     <span class="p-4 font-bold flex"
       >Call Now <phone class="p-1"></phone>0311 2133333</span
     >
-    <button class="px-6 py-4 bg-red-700">Reserve a Table</button>
+    <button class="px-5 py-1 bg-red-700 font-semibold">Reserve a Table</button>
   </div>
   </div>
   
