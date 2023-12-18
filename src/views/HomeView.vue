@@ -88,8 +88,8 @@ import navbar from "@/components/navbar.vue";
     <p class="text-center uppercase text-slate-400 font-bold mb-5">
       tea time & dining
     </p>
-    <div class="w-[99%] flex flex-wrap mx-6 group">
-      <div
+    <div class="w-full flex flex-wrap mx-6">
+      <!-- <div
         class="bg-gray-400 absolute my-72 w-[33%] h-28 opacity-0 z-50 group-hover:opacity-100 transition-all duration-700 ease-in-out"
       >
         <p class="text-xl font-bold px-2 py-4 text-slate-50">
@@ -103,8 +103,15 @@ import navbar from "@/components/navbar.vue";
           alt="img"
           class=" w-full scale-100 hover:scale-110 transition-all duration-300 ease-linear object-cover z-0 hover:overflow-hidden"
         />
+      </div> -->
+      <div class="w-1/3 bg-[url('menu-image1.jpg')] bg-cover bg-center h-auto relative group">
+        <div class="absolute bottom-0 bg-slate-800 w-full h-32 text-slate-50 opacity-0 group-hover:opacity-100 ">
+          <p class="text-xl font-bold px-2 py-4 absolute bottom-0">
+            American breakfast <span class="pl-52">25$</span>
+          </p>
+          <h3 class="font-bold mx-2 absolute bottom-0">Tomato / eggs / sausages</h3>
+        </div>
       </div>
-
       <img src="/menu-image2.jpg" alt="img" />
       <img src="/menu-image3.jpg" alt="img" />
       <img src="/menu-image4.jpg" alt="img" />
