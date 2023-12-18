@@ -31,14 +31,14 @@ import Phone from "@/components/Phone.vue";
       <button class="bg-red-700 px-6 py-2 text-sm">Discover Menu</button>
     </div>
   </div>
-  <div id="about" class="w-4/5 h-[450px] mx-20">
-    <div>
+  <div id="about" class="w-4/5 h-[450px] mx-20 flex justify-center items-center my-12">
+    <div class="w-1/2">
       <p class="text-xs text-gray-400 my-12">READ OUR STORY</p>
-      <h2 class="w-3/5 text-4xl font-bold text-gray-800 leading-normal">
+      <h2 class="w-full text-4xl font-bold text-gray-800 leading-normal">
         We've been Making The<br />
         Delicious Foods Since 1999
       </h2>
-      <p class="w-3/5 py-3">
+      <p class="w-full py-3">
         Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae
         malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi.
         Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id. Sed
@@ -48,6 +48,8 @@ import Phone from "@/components/Phone.vue";
         you.
       </p>
     </div>
-    
+    <div class="w-2/3 m-2 p-2">
+      <img src="/about-image.jpg" alt="aboutImage">
+    </div>
   </div>
 </template>
