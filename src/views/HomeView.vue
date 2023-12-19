@@ -17,12 +17,12 @@ import navbar from "@/components/navbar.vue";
       <p class="text-3xl my-4">
         Our mission is to provide an unforgettable experience
       </p>
-      <button class="bg-red-700 px-6 py-2 text-sm">Discover Menu</button>
+      <button class=" bg-transparent hover:bg-red-700 hover:border-none px-6 py-2 text-sm border border-gray-400 transition-all duration-500 ease-in ">Discover Menu</button>
     </div>
   </div>
   <div
     id="about"
-    class="w-4/5 h-[450px] mx-20 flex justify-center items-center my-12"
+    class="w-4/5 h-[450px] mx-20 flex justify-between items-center my-12"
   >
     <div class="w-1/2">
       <p class="text-xs text-gray-400 my-12">READ OUR STORY</p>
@@ -40,7 +40,7 @@ import navbar from "@/components/navbar.vue";
         you.
       </p>
     </div>
-    <div class="w-2/3 m-2 p-2">
+    <div class="w-1/2">
       <img src="/about-image.jpg" alt="aboutImage" />
     </div>
   </div>
@@ -88,35 +88,62 @@ import navbar from "@/components/navbar.vue";
     <p class="text-center uppercase text-slate-400 font-bold mb-5">
       tea time & dining
     </p>
-    <div class="w-full flex flex-wrap mx-6">
-      <!-- <div
-        class="bg-gray-400 absolute my-72 w-[33%] h-28 opacity-0 z-50 group-hover:opacity-100 transition-all duration-700 ease-in-out"
-      >
-        <p class="text-xl font-bold px-2 py-4 text-slate-50">
-          American breakfast <span class="pl-52">25$</span>
-        </p>
-        <h3 class="font-bold mx-2">Tomato / eggs / sausages</h3>
-      </div>
-      <div class="w-1/3">
-        <img
-          src="/menu-image1.jpg"
-          alt="img"
-          class=" w-full scale-100 hover:scale-110 transition-all duration-300 ease-linear object-cover z-0 hover:overflow-hidden"
-        />
-      </div> -->
-      <div class="w-1/3 bg-[url('menu-image1.jpg')] bg-cover bg-center h-auto relative group">
-        <div class="absolute bottom-0 bg-slate-800 w-full h-32 text-slate-50 opacity-0 group-hover:opacity-100 ">
-          <p class="text-xl font-bold px-2 py-4 absolute bottom-0">
+  </div>
+  <div class="w-full bg-gray-50 flex flex-wrap justify-center items-center">
+    <div class="w-auto relative group">
+      <img src="/menu-image1.jpg" alt="img" />
+      <div class="absolute bottom-0 bg-slate-800 w-full h-1 text-slate-50 opacity-0 group-hover:opacity-80 group-hover:h-32 transition-all duration-300 ease-linear">
+          <p class="text-xl font-bold px-2 py-4">
             American breakfast <span class="pl-52">25$</span>
           </p>
-          <h3 class="font-bold mx-2 absolute bottom-0">Tomato / eggs / sausages</h3>
+          <h3 class="font-bold mx-2  ">Tomato / eggs / sausages</h3>
         </div>
-      </div>
-      <img src="/menu-image2.jpg" alt="img" />
-      <img src="/menu-image3.jpg" alt="img" />
-      <img src="/menu-image4.jpg" alt="img" />
-      <img src="/menu-image5.jpg" alt="img" />
-      <img src="/menu-image6.jpg" alt="img" />
     </div>
+    <div class="w-auto relative group">
+      <img src="/menu-image2.jpg" alt="img" />
+      <div class="absolute bottom-0 bg-slate-800 w-full h-1 text-slate-50 opacity-0 group-hover:opacity-80 group-hover:h-32 transition-all duration-300 ease-linear">
+          <p class="text-xl font-bold px-2 py-4">
+            American breakfast <span class="pl-52">25$</span>
+          </p>
+          <h3 class="font-bold mx-2  ">Tomato / eggs / sausages</h3>
+        </div>
+    </div>
+    <div class="w-auto relative group">
+      <img src="/menu-image3.jpg" alt="img" />
+      <div class="absolute bottom-0 bg-slate-800 w-full h-1 text-slate-50 opacity-0 group-hover:opacity-80 group-hover:h-32 transition-all duration-300 ease-linear">
+          <p class="text-xl font-bold px-2 py-4">
+            American breakfast <span class="pl-52">25$</span>
+          </p>
+          <h3 class="font-bold mx-2  ">Tomato / eggs / sausages</h3>
+        </div>
+    </div>
+    <div class="w-auto relative group">
+      <img src="/menu-image4.jpg" alt="img" />
+      <div class="absolute bottom-0 bg-slate-800 w-full h-1 text-slate-50 opacity-0 group-hover:opacity-80 group-hover:h-32 transition-all duration-300 ease-linear">
+          <p class="text-xl font-bold px-2 py-4">
+            American breakfast <span class="pl-52">25$</span>
+          </p>
+          <h3 class="font-bold mx-2  ">Tomato / eggs / sausages</h3>
+        </div>
+    </div>
+    <div class="w-auto relative group">
+      <img src="/menu-image5.jpg" alt="img" />
+      <div class="absolute bottom-0 bg-slate-800 w-full h-1 text-slate-50 opacity-0 group-hover:opacity-80 group-hover:h-32 transition-all duration-300 ease-linear">
+          <p class="text-xl font-bold px-2 py-4">
+            American breakfast <span class="pl-52">25$</span>
+          </p>
+          <h3 class="font-bold mx-2  ">Tomato / eggs / sausages</h3>
+        </div>
+    </div>
+    <div class="w-auto relative group">
+      <img src="/menu-image6.jpg" alt="img"/>
+      <div class="absolute bottom-0 bg-slate-800 w-full h-1 text-slate-50 opacity-0 group-hover:opacity-80 group-hover:h-32 transition-all duration-300 ease-linear">
+          <p class="text-xl font-bold px-2 py-4">
+            American breakfast <span class="pl-52">25$</span>
+          </p>
+          <h3 class="font-bold mx-2  ">Tomato / eggs / sausages</h3>
+        </div>
+    </div>
+    
   </div>
 </template>
