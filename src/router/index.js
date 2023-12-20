@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 import Chefs from "../views/Chefs.vue";
 import Menu from "../views/Menu.vue";
+import contact from "../views/contact.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -13,6 +14,7 @@ const router = createRouter({
         second: AboutView,
         third: Chefs,
         fourth: Menu,
+        fifth: contact,
       },
     },
     {
@@ -22,24 +24,37 @@ const router = createRouter({
         second: AboutView,
         third: Chefs,
         fourth: Menu,
+        fifth: contact,
       },
     },
-      {
+    {
       path: "/chef",
       components: {
         default: HomeView,
         second: AboutView,
         third: Chefs,
         fourth: Menu,
+        fifth: contact,
       },
     },
-      {
+    {
       path: "/menu",
       components: {
         default: HomeView,
         second: AboutView,
         third: Chefs,
         fourth: Menu,
+        fifth: contact,
+      },
+    },
+    {
+      path: "/contact",
+      components: {
+        default: HomeView,
+        second: AboutView,
+        third: Chefs,
+        fourth: Menu,
+        fifth: contact,
       },
     },
   ],
