@@ -7,15 +7,33 @@
       they are nice and friendly
     </h2>
     <div class="w-3/5 mx-auto flex justify-center items-center h-screen">
-      <div
-        class="w-1/3 mx-2 flex flex-col justify-center items-center group relative"
-      >
-        <div class="overflow-hidden">
+      <div class="w-1/3 mx-2 flex flex-col justify-center items-center group">
+        <div class="overflow-hidden relative">
           <img
             src="/team-image1.jpg"
             alt=""
             class="w-full scale-100 group-hover:scale-110 transition-all duration-300 ease-linear"
           />
+
+          <div
+            class="absolute w-full bg-black h-0 my-auto bottom-0 opacity-100 group-hover:h-full group-hover:opacity-80 transition-all duration-300 ease-linear"
+          >
+            <h2
+              class="text-lg font-bold absolute top-[50%] text-center mx-4 text-slate-50"
+            >
+              Etiam auctor enim tristique faucibus
+            </h2>
+            <div
+              class="flex justify-center items-center absolute top-[55%] left-[30%]"
+            >
+              <Github
+                class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full mx-4 my-4 flex items-center justify-center hover:bg-red-600"
+              ></Github>
+              <instagram
+                class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-red-600"
+              ></instagram>
+            </div>
+          </div>
         </div>
         <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
           New Catherine
@@ -23,84 +41,55 @@
         <p class="font-bold text-center pt-1 pb-4 text-gray-700 text-sm">
           KITCHEN OFFICER
         </p>
-        <div
-          class="absolute w-full bg-black h-1 my-auto bottom-[5.3em] opacity-0 group-hover:h-[550px] group-hover:opacity-80 transition-all duration-300 ease-linear"
-        >
-          <h2
-            class="text-lg font-bold absolute top-[50%] text-center mx-4 text-slate-50"
-          >
-            Etiam auctor enim tristique faucibus
-          </h2>
-          <div
-            class="flex justify-center items-center absolute top-[55%] left-[30%]"
-          >
-            <Github
-              class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full mx-4 my-4 flex items-center justify-center hover:bg-red-600"
-            ></Github>
-            <instagram
-              class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-red-600"
-            ></instagram>
-          </div>
-        </div>
       </div>
-      <div
-        class="w-1/3 mx-2 flex flex-col justify-center items-center relative group"
-      >
-        <div class="overflow-hidden">
+      <div class="w-1/3 mx-2 flex flex-col justify-center items-center group">
+        <div class="overflow-hidden relative">
           <img
             src="/team-image2.jpg"
             alt=""
             class="w-full scale-100 group-hover:scale-110 transition-all duration-500 ease-linear"
           />
+          <div
+            class="absolute w-full bg-black h-0 my-auto bottom-0  group-hover:h-full group-hover:opacity-80 transition-all duration-300 ease-linear"
+          >
+            <h2
+              class="text-lg font-bold absolute top-[50%] text-center mx-4 text-slate-50"
+            >
+              Etiam auctor enim tristique faucibus
+            </h2>
+            <div
+              class="flex justify-center items-center absolute top-[55%] left-[30%]"
+            >
+              <Github
+                class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full mx-4 my-4 flex items-center justify-center hover:bg-red-600"
+              ></Github>
+              <google-plus
+                class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-red-600"
+              ></google-plus>
+            </div>
+          </div>
         </div>
 
         <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
           Lindsay Perlen
         </h2>
-        <p class="font-bold text-center pt-1 pb-4 text-gray-700 uppercase text-sm">
+        <p
+          class="font-bold text-center pt-1 pb-4 text-gray-700 uppercase text-sm"
+        >
           owner & manger
         </p>
-        <div
-          class="absolute w-full bg-black h-1 my-auto bottom-[5.3em] opacity-0 group-hover:h-[550px] group-hover:opacity-80 transition-all duration-300 ease-linear"
-        >
-          <h2
-            class="text-lg font-bold absolute top-[50%] text-center mx-4 text-slate-50"
-          >
-            Etiam auctor enim tristique faucibus
-          </h2>
-          <div
-            class="flex justify-center items-center absolute top-[55%] left-[30%]"
-          >
-            <Github
-              class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full mx-4 my-4 flex items-center justify-center hover:bg-red-600"
-            ></Github>
-            <google-plus
-              class="text-slate-50 bg-gray-500 w-12 h-12 rounded-full flex items-center justify-center hover:bg-red-600"
-            ></google-plus>
-          </div>
-        </div>
       </div>
       <div
         class="w-1/3 mx-2 flex flex-col justify-center items-center relative group"
       >
-        <div class="overflow-hidden">
+        <div class="overflow-hidden relative">
           <img
             src="/team-image3.jpg"
             alt=""
             class="w-full scale-100 group-hover:scale-110 transition-all duration-500 ease-linear"
           />
-        </div>
-
-        <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
-          Isabella Grace
-        </h2>
-        <p
-          class="font-bold text-center pt-1 pb-4 text-gray-700 uppercase text-sm"
-        >
-          Pizza specialist
-        </p>
-        <div
-          class="absolute w-full bg-black h-1 my-auto bottom-[5.3em] opacity-0 group-hover:h-[550px] group-hover:opacity-80 transition-all duration-300 ease-linear"
+          <div
+          class="absolute w-full bg-black h-0 my-auto bottom-0  group-hover:h-full group-hover:opacity-80 transition-all duration-300 ease-linear"
         >
           <h2
             class="text-lg font-bold absolute top-[50%] text-center mx-4 text-slate-50"
@@ -118,6 +107,17 @@
             ></email-outline>
           </div>
         </div>
+        </div>
+
+        <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
+          Isabella Grace
+        </h2>
+        <p
+          class="font-bold text-center pt-1 pb-4 text-gray-700 uppercase text-sm"
+        >
+          Pizza specialist
+        </p>
+        
       </div>
     </div>
   </div>
