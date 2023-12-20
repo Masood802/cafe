@@ -20,7 +20,7 @@
         <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
           New Catherine
         </h2>
-        <p class="font-bold text-center pt-1 pb-4 text-gray-700">
+        <p class="font-bold text-center pt-1 pb-4 text-gray-700 text-sm">
           KITCHEN OFFICER
         </p>
         <div
@@ -57,7 +57,7 @@
         <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
           Lindsay Perlen
         </h2>
-        <p class="font-bold text-center pt-1 pb-4 text-gray-700">
+        <p class="font-bold text-center pt-1 pb-4 text-gray-700 uppercase text-sm">
           owner & manger
         </p>
         <div
@@ -94,7 +94,9 @@
         <h2 class="font-bold text-center text-xl pt-4 text-gray-700">
           Isabella Grace
         </h2>
-        <p class="font-bold text-center pt-1 pb-4 text-gray-700">
+        <p
+          class="font-bold text-center pt-1 pb-4 text-gray-700 uppercase text-sm"
+        >
           Pizza specialist
         </p>
         <div

@@ -1,6 +1,7 @@
 <script setup>
-import { RouterLink } from "vue-router";
+import { RouterLink, useRouter } from "vue-router";
 import Phone from "./Phone.vue";
+let router = useRouter();
 </script>
 
 <template>
@@ -22,17 +23,17 @@ import Phone from "./Phone.vue";
         >ABOUT
       </router-link>
       <router-link
-        to="/"
+        to="/chef"
         class="px-3 hover:text-red-700 transition-all duration-500 ease-linear"
         >CHEF
       </router-link>
       <router-link
-        to="/"
+        to="/menu"
         class="px-3 hover:text-red-700 transition-all duration-500 ease-linear"
         >MENU
       </router-link>
       <router-link
-        to="/"
+        to="/contact"
         class="px-3 hover:text-red-700 transition-all duration-500 ease-linear"
         >CONTACT
       </router-link>

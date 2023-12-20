@@ -30,8 +30,6 @@ import About from "./AboutView.vue";
       </button>
     </div>
   </div>
-  <about></about>
-  <Chefs></Chefs>
-  <Menu></Menu>
-  <slider></slider>
+  
+  
 </template>
