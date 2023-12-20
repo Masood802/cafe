@@ -33,7 +33,7 @@ onMounted(() => {
         document.getElementById("div3").style.backgroundColor = "Transparent";
       }
     }
-  }, 10 * 1000);
+  }, 10*1000);
 });
 </script>
 <template>
