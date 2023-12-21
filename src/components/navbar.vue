@@ -14,12 +14,12 @@ onMounted(() => {
 
 <template>
   <div class="w-full flex justify-center items-center fixed h-20 z-50" :class="{ change_bg: scrollPostioon > 550 }">
-    <div class="w-[20%] ml-2">
+    <div class="basis-1/4 ml-2 flex-none">
       <h2 class="p-4 font-bold text-xl">
         Eatery <strong class="text-red-800">.</strong> Cafe
       </h2>
     </div>
-    <div class="font-bold w-1/2 text-lg  flex items-center justify-center" >
+    <div class="font-bold basis-1/2 text-lg  flex items-center justify-center flex-auto" >
       <router-link
         to="/"
         class="px-3 hover:text-red-700 transition-all duration-500 ease-linear"
@@ -46,7 +46,7 @@ onMounted(() => {
         >CONTACT
       </router-link>
     </div>
-    <div class="w-1/4 flex justify-center items-center">
+    <div class="basis-1/4 flex justify-center items-center flex-auto">
       <span class="p-4 font-bold flex text-lg items-center justify-center"
         >Call Now <phone class="mx-2"></phone> 0311 2133333</span
       >
