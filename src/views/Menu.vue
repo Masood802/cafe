@@ -7,7 +7,7 @@
       tea time & dining
     </p>
   </div>
-  <div class="w-full bg-gray-50 flex flex-wrap justify-center items-center">
+  <div class="w-full bg-gray-50 flex flex-wrap justify-center items-center" id="menu">
     <div class="w-auto relative group overflow-hidden">
       <img
         src="/menu-image1.jpg"

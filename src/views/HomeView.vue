@@ -8,7 +8,7 @@ import About from "./AboutView.vue";
 
 <template>
   <div
-    class="bg-transparent absolute text-white w-full mx-10"
+    class="bg-transparent absolute text-white w-full "
   >
     <navbar></navbar>
   </div>
@@ -24,7 +24,7 @@ import About from "./AboutView.vue";
         Our mission is to provide an unforgettable experience
       </p>
       <button
-        class="bg-transparent hover:bg-red-700 hover:border-none px-6 py-2 text-sm border border-gray-400 transition-all duration-500 ease-in"
+        class="bg-transparent hover:bg-red-700 hover:border-none px-6 py-2 text-sm border border-gray-400 transition-all duration-700 ease-in"
       >
         Discover Menu
       </button>

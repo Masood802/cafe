@@ -1,17 +1,25 @@
 <script setup>
 import { RouterLink, useRouter } from "vue-router";
 import Phone from "./Phone.vue";
+import { onMounted, ref } from "vue";
 let router = useRouter();
+let scrollPostioon = ref(null);
+function updateScroll() {
+  scrollPostioon.value = window.scrollY;
+}
+onMounted(() => {
+  window.addEventListener("scroll", updateScroll);
+});
 </script>
 
 <template>
-  <div class="w-full flex justify-center items-center">
-    <div class="w-[20%] m-2">
+  <div class="w-full flex justify-center items-center fixed h-20 z-50" :class="{ change_bg: scrollPostioon > 550 }">
+    <div class="w-[20%] ml-2">
       <h2 class="p-4 font-bold text-xl">
         Eatery <strong class="text-red-800">.</strong> Cafe
       </h2>
     </div>
-    <div class="font-bold w-[55%]">
+    <div class="font-bold w-[55%]" >
       <router-link
         to="/"
         class="px-3 hover:text-red-700 transition-all duration-500 ease-linear"

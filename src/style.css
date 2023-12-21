@@ -5,3 +5,7 @@
 .router-link-exact-active {
   color: red;
 }
+.change_bg {
+  background-color: rgb(37, 38, 39);
+  opacity: 90%;
+}
