@@ -14,17 +14,18 @@ import About from "./AboutView.vue";
   </div>
 
   <div
-    class="w-full h-[600px] bg-[url('slider-image3.jpg')] bg-cover flex justify-between bg-center"
+    class="w-full flex justify-between items-center relative"
   >
+  <slider></slider>
     <div
-      class="w-2/5 text-left p-4 absolute top-32 ml-6 text-slate-100 font-bold"
+      class="w-2/5 text-left p-4 absolute top-42 ml-6 text-slate-100 font-bold"
     >
       <h2>EATERY CAFE & RESTORENT</h2>
-      <p class="text-3xl my-4">
+      <p class="text-4xl my-8">
         Our mission is to provide an unforgettable experience
       </p>
       <button
-        class="bg-transparent hover:bg-red-700 hover:border-none px-6 py-2 text-sm border border-gray-400 transition-all duration-700 ease-in"
+        class="bg-transparent  hover:bg-red-700 hover:border-none w-52 px-6 py-2 mt-8 text-sm border transition-all duration-700 ease-in"
       >
         Discover Menu
       </button>
