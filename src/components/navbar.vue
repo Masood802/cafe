@@ -19,7 +19,7 @@ onMounted(() => {
         Eatery <strong class="text-red-800">.</strong> Cafe
       </h2>
     </div>
-    <div class="font-bold w-[55%]" >
+    <div class="font-bold w-1/2 text-lg  flex items-center justify-center" >
       <router-link
         to="/"
         class="px-3 hover:text-red-700 transition-all duration-500 ease-linear"
@@ -46,11 +46,11 @@ onMounted(() => {
         >CONTACT
       </router-link>
     </div>
-    <div class="w-[30%] mt-2 flex justify-start items-center">
-      <span class="p-4 font-bold flex"
-        >Call Now <phone class="p-1"></phone>0311 2133333</span
+    <div class="w-1/4 flex justify-center items-center">
+      <span class="p-4 font-bold flex text-lg items-center justify-center"
+        >Call Now <phone class="mx-2"></phone> 0311 2133333</span
       >
-      <button class="px-5 py-1 bg-red-700 font-semibold">
+      <button class="w-1/3 h-8 bg-red-700 font-semibold text-sm">
         Reserve a Table
       </button>
     </div>
